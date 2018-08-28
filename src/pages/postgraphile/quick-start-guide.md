@@ -40,9 +40,11 @@ PostgreSQL不需要安装在同一台机器上，但如果安装了，您将获�
 
 If you are running on macOS, it is recommended that you install and use [PostgreSQL.app](http://postgresapp.com/). If you are on another platform, go to the [PostgreSQL download page](https://www.postgresql.org/download/) to pick up a copy of PostgreSQL. We recommend using a version of PostgreSQL higher than `9.6.0`. You can read more about the reasoning behind this requirement [in our documentation](/postgraphile/requirements/).
 
+如果您在macOS上运行，建议您安装和使用[PostgreSQL.app](http://postgresapp.com/)。如果您在另一个平台上，请访问[PostgreSQL下载页面](https://www.postgresql.org/download/)以获取PostgreSQL的副本。我们建议使用一个高于`9.6.0`版本的PostgreSQL。您可以在[我们的文档](/postgraphile/requirements/)中了解更多关于此需求背后的原因。
+
 After that, make sure your copy of PostgreSQL is running locally on `postgres://localhost:5432` by running `psql` in a terminal. 5432 is the default port for local PostgreSQL databases and is used by many PostgreSQL tools (since this is the default you can omit this from the connection string if you like)
 
-如果您在macOS上运行，建议您安装和使用[PostgreSQL.app](http://postgresapp.com/)。如果您在另一个平台上，请访问[PostgreSQL下载页面](https://www.postgresql.org/download/)以获取PostgreSQL的副本。我们建议使用一个高于`9.6.0`版本的PostgreSQL。您可以在[我们的文档][/postgraphile/requirements/]中了解更多关于此需求背后的原因。
+在此之后，通过在终端上运行`psql`，确保PostgreSQL副本在本地`postgres://localhost:5432`上运行。5432是本地PostgreSQL数据库的默认端口，许多PostgreSQL工具都使用这个端口(因为这是默认端口，如果愿意，可以在连接字符串中省略它)
 
 If you get something like this returned then PostgreSQL is successfully installed:
 
