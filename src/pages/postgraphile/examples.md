@@ -18,8 +18,7 @@ Below you'll find the result of running various GraphQL queries against the
 This is intended to be an introduction and quick reference, for full
 information please use the documentation links.
 
-下面您将看到对[examples repo schema](https://github.com/graphile/examples/tree/master/db)运行各种GraphQL查询的结果
-这是一个介绍和快速参考，有关完整的信息请使用文档链接。
+下面您将看到对[examples repo schema](https://github.com/graphile/examples/tree/master/db)(PostGraphile提供的一个PG数据库实例)运行各种GraphQL查询的结果, 这是一个介绍和快速参考，有关完整的信息请使用文档链接。
 
 Please be aware that these examples use
 [@graphile-contrib/pg-simplify-inflector](https://github.com/graphile-contrib/pg-simplify-inflector)
