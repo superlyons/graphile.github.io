@@ -25,7 +25,7 @@ Please be aware that these examples use
 [@graphile-contrib/pg-simplify-inflector](https://github.com/graphile-contrib/pg-simplify-inflector)
 plugin to simplify the field names over the defaults. You can use this via
 
-请注意，这些示例使用了[@graphile-contrib/pg-simplify-inflector](https://github.com/graphiergb/pg -simplify-inflector)插件来简化默认的字段名。你可以通过
+请注意，这些示例使用了[@graphile-contrib/pg-simplify-inflector](https://github.com/graphile-contrib/pg-simplify-inflector)插件来简化默认的字段名。你可以通过
 
 ```
 yarn add postgraphile @graphile-contrib/pg-simplify-inflector
